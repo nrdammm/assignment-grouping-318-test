@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - DriveEasy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">ABE NUAR</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="book.html">Back to Cars</a>
+        </div>
+    </nav>
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - DriveEasy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo">ABE NUAR</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="book.html">Back to Cars</a>
+        </div>
+    </nav>
+
+    <section class="checkout">
+        <div class="checkout-container">
+            <h2>Complete Your Booking</h2>
+            
+            <!-- Selected Car Display -->
+            <div class="selected-car">
+                <h3 id="selected-car-model"></h3>
+            </div>
+
+            <!-- Booking Form -->
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="pickup-date">Pickup Date:</label>
+                    <input type="date" id="pickup-date" name="pickup-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pickup-time">Pickup Time:</label>
+                    <input type="time" id="pickup-time" name="pickup-time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="return-time">Return Time:</label>
+                    <input type="time" id="return-time" name="return-time" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="special-requests">Special Requests:</label>
+                    <textarea id="special-requests" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Confirm Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Abe Nuar Sewa Kereta. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

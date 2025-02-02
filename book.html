@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Car - DriveEasy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html" class="logo">ABE NUAR</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+        <i class="fas fa-bars mobile-menu"></i>
+    </nav>
+
+    <section class="car-selection">
+        <h2>Choose Your Perfect Car</h2>
+        <div class="car-grid">
+            
+            <div class="car-card">
+                <img src="images/featured-cars/bezza.jpg" alt="Sedan">
+                <h3>Economy Sedan</h3>
+                <div class="car-specs">
+                    <p><i class="fas fa-users"></i> 5 Seats</p>
+                    <p><i class="fas fa-gas-pump"></i> Petrol</p>
+                    <p><i class="fas fa-tachometer-alt"></i> Automatic</p>
+                </div>
+                <p class="price">RM80/day</p>
+                <button class="select-btn" onclick="selectCar('Economy Sedan')">Select Car</button>
+            </div>
+
+            
+            <div class="car-card">
+                <img src="images/featured-cars/alza.jpg" alt="SUV">
+                <h3>Family SUV</h3>
+                <div class="car-specs">
+                    <p><i class="fas fa-users"></i> 7 Seats</p>
+                    <p><i class="fas fa-gas-pump"></i> petrol</p>
+                    <p><i class="fas fa-tachometer-alt"></i> Automatic</p>
+                </div>
+                <p class="price">RM120/day</p>
+                <button class="select-btn" onclick="selectCar('Family SUV')">Select Car</button>
+            </div>
+
+            
+            <div class="car-card">
+                <img src="images/featured-cars/myvi.png" alt="Sports Car">
+                <h3>Economy Sedan</h3>
+                <div class="car-specs">
+                    <p><i class="fas fa-users"></i> 5 Seats</p>
+                    <p><i class="fas fa-gas-pump"></i> Petrol</p>
+                    <p><i class="fas fa-tachometer-alt"></i> Automatic</p>
+                </div>
+                <p class="price">RM80/day</p>
+                <button class="select-btn" onclick="selectCar('Sports Car')">Select Car</button>
+            </div>
+
+            <div class="car-card">
+                <img src="images/featured-cars/saga.png" alt="Sports Car">
+                <h3>Economy sedan</h3>
+                <div class="car-specs">
+                    <p><i class="fas fa-users"></i> 5 Seats</p>
+                    <p><i class="fas fa-gas-pump"></i> Petrol</p>
+                    <p><i class="fas fa-tachometer-alt"></i> Manual</p>
+                </div>
+                <p class="price">RM80/day</p>
+                <button class="select-btn" onclick="selectCar('Sports Car')">Select Car</button>
+            </div>
+
+            <div class="car-card">
+                <img src="images/featured-cars/axia.png" alt="Sports Car">
+                <h3>Economy sedan</h3>
+                <div class="car-specs">
+                    <p><i class="fas fa-users"></i> 5 Seats</p>
+                    <p><i class="fas fa-gas-pump"></i> Petrol</p>
+                    <p><i class="fas fa-tachometer-alt"></i> Manual</p>
+                </div>
+                <p class="price">RM80/day</p>
+                <button class="select-btn" onclick="selectCar('Sports Car')">Select Car</button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Abe Nuar Sewa Kereta. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
